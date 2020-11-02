@@ -1,4 +1,4 @@
-logfile = open("/var/log/syslog", "r")
+logfile = open("/var/log/syslog", "rw")
 for line in logfile:
     line_split = line.split()
     print (line_split)
